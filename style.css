@@ -1,0 +1,34 @@
+body {
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images5.alphacoders.com/135/1353829.png");
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.090);
+
+}
+
+.KLCAD {
+    background-color: transparent;
+    resize: none;
+    border-style: solid;
+    border-color: ;
+    color:white;
+    text-indent: 1px;
+    text-align: center;
+}
+
+.KLCAD:focus {
+    outline-color: transparent;
+
+}

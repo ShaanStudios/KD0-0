@@ -1,1 +1,1 @@
-# Test Amaçlıdır
+# Test Amaclidir

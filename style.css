@@ -12,23 +12,118 @@ body {
 }
 
 .container {
-    border-color: white;
+    width: 95%;
+    height: 90%;
+}
+
+.bar {
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.082);
+   padding: 5px;
+    display: flex;
+    border-radius: 24px;
+}
+
+.btnos {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    float: left;
+
+}
+.btnos i {
+    margin-left: 5px;
+    font-size: large;
+    transition: 350ms;
+    filter: drop-shadow(0px 0px 0.9px black);
+}
+
+.btnos i:hover {
+    transform: scale(1.1);
+    filter:  drop-shadow(0px 0px 0px black);
+    animation: colorChangeMain 1s infinite;
+}
+
+.apps {
+    background-color: rgba(0, 0, 0, 0.034);
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.090);
-
-}
-
-.KLCAD {
-    background-color: transparent;
-    resize: none;
+    margin-top: 5px;
+    border-radius: 24px;
+    height: 97%;
+    width: auto;
     border-style: solid;
-    border-color: ;
-    color:white;
-    text-indent: 1px;
-    text-align: center;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-width: 2px;
 }
 
-.KLCAD:focus {
-    outline-color: transparent;
+.reklams {
+    display: flex;
+    float: right;
+    padding: 1px;
+    border-style: solid;
+    border-radius: 5%;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+}
 
+.reklamrsm {
+    width: 100px;
+    max-height: 190px;
+    filter: blur(2px);
+    transition: 0.3s;
+}
+
+.reklamrsm:hover {
+    filter: blur(0);
+    transform: scale(1.01);
+    border-radius: 5%;
+}
+
+.area-1 {
+    margin-left: 15px;
+}
+
+.yazi {
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+
+.yazi:hover {
+    color: beige;
+    cursor: pointer;
+    border-color: beige;
+    animation: colorChange 2.5s infinite;
+}
+
+/* ANİMASYONLAR */
+@keyframes colorChange {
+    0% {
+        filter: drop-shadow(0px 0px 2px rgba(255, 0, 255, 0.5)); 
+    }
+    50% {
+        filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5)); 
+    }
+    100% {
+        filter: drop-shadow(0px 0px 2px rgba(0, 255, 0, 0.5)); 
+    }
+}
+
+@keyframes colorChangeMain {
+    0% {
+        color: rgba(137, 43, 226, 0.9);
+        }
+    50% {
+        color: rgba(0, 0, 0, 0.9);
+    }
+    100% {
+        color: rgba(137, 43, 226, 0.9);
+    }
 }

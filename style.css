@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 body {
     z-index: 1;
     background-repeat: no-repeat;
@@ -28,12 +29,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     position: sticky;
-    float: left;
-
+    float: left;    
 }
+
 .btnos i {
     margin-left: 5px;
-    font-size: large;
+    margin-right: 10px;
+    font-size: 200%;
     transition: 350ms;
     filter: drop-shadow(0px 0px 0.9px black);
     cursor: pointer;
@@ -70,8 +72,8 @@ body {
 }
 
 .reklamrsm {
-    width: 100px;
-    max-height: 190px;
+    width: 130px;
+    max-height: 290px;
     filter: blur(2px);
     transition: 0.3s;
     cursor: not-allowed;
@@ -97,6 +99,7 @@ body {
     padding-left: 3px;
     padding-right: 3px;
     border-radius: 5px;
+    font-size: 200%;
 }
 
 .yazi:hover {
@@ -110,17 +113,18 @@ body {
     text-align: center;
     margin-top: 5px;
     font-size: larger;
-    font-weight: 900;
+    font-size: 150%;
 }
 
 .yasiz {
     margin-top: 5px;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
 }
 
 .Download {
-    font-size: 25px;
+    font-size: 200%;
     padding: 10px;
     font-weight: 900;
     background-color: transparent;
@@ -138,6 +142,70 @@ body {
     cursor: pointer;
     animation: akici 1s infinite;
 }
+
+.Alt-reklams {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slot-1 {
+    max-width: 300px;
+    height: 150px;
+    filter: blur(2px);
+    transition: 0.3s;
+    cursor: not-allowed;
+}
+
+.slot-2 {
+    max-width: 300px;
+    height: 150px;
+    filter: blur(2px);
+    transition: 0.3s;
+    cursor: not-allowed;
+}
+
+.slot-3 {
+    max-width: 300px;
+    height: 150px;
+    filter: blur(2px);
+    transition: 0.3s;
+    cursor: not-allowed;
+}
+
+.slot-1:hover {
+    z-index: 1;
+    transform: scaleX(1.2);
+}
+.slot-2:hover {
+    transform: scaleX(1.2);
+    z-index: 1;
+}
+.slot-3:hover {
+    transform: scaleX(1.2);
+    z-index: 1;
+}
+
+.ALT {
+    width: auto;
+    margin-top: 10%;
+    background-color: blueviolet;
+}
+
+.INFO {
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+.INFO a {
+    display: flex;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+
 
 /* ANİMASYONLAR */
 @keyframes colorChange {

@@ -190,13 +190,34 @@ body {
     width: auto;
     margin-top: 10%;
     background-color: blueviolet;
+    display: flex;
+    box-shadow: 0px -2px 2vh 1px blueviolet;
+    justify-content: space-around;
 }
 
 .INFO {
     display: flex;
     flex-direction: column;
     color:white;
+    width: 250px;
 }
+
+.copy {
+    color:white;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.copy .a {
+    color: white;
+    text-decoration: none;
+}
+
 
 .INFO a {
     display: flex;
@@ -204,8 +225,39 @@ body {
     text-decoration: none;
     color: white;
     font-size: 120%;
+
 }
 
+.INFO h3 {
+    margin-left: 35px;
+}
+
+.bi {
+    margin-right: 5px;
+}
+
+.Icerik {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    text-align: center;
+}
+.Icerik h3 {
+margin-top: 10.5%;
+color: white;
+}
+
+.Icerik a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+
+.ALT a:hover {
+    animation: sec 1s infinite;
+}
 
 /* ANİMASYONLAR */
 @keyframes colorChange {
@@ -245,4 +297,18 @@ body {
         color: blueviolet;
         border-color: aliceblue;
     }
+}
+
+@keyframes sec {
+    0% {
+        scale: 1.1;
+        color: black;
+    }
+    50% {
+        scale: 1;
+    }
+    100% {
+        scale: 1.1;
+    }
+    
 }

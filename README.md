@@ -6,6 +6,6 @@ Testten elde ettiklerimiz
 - Daha fazla reklam alanı
 
 # Sitenin Canlı İzleme Kısmı
-Bu bir örnek bağlantıdır: [You.com](https://www.you.com).
+Bu bir örnek bağlantıdır: [You.com](https://www.shaanstudios.rf.gd).
 
 &copy; SHS 2024

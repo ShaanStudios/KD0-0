@@ -6,6 +6,6 @@ Testten elde ettiklerimiz
 - Daha fazla reklam alanı
 
 # Sitenin Canlı İzleme Kısmı
-[View] (https://github.shaanstudios.rf.gd/) - Online Wiev
+Bu bir örnek bağlantıdır: [You.com](https://www.you.com).
 
 &copy; SHS 2024

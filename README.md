@@ -6,6 +6,6 @@ Testten elde ettiklerimiz
 - Daha fazla reklam alanı
 
 # Sitenin Canlı İzleme Kısmı
-- [Online_Wiev] (www.github.shaanstudios.rf.gd/KD0)
+- [OnlineWiev] (www.github.shaanstudios.rf.gd/KD0)
 
 &copy; SHS 2024
